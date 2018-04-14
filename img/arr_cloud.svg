@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="17.75" viewBox="0 0 18 17.75">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+        fill-rule: evenodd;
+        filter: url(#filter);
+      }
+    </style>
+    <filter id="filter" x="999" y="651.25" width="18" height="17.75" filterUnits="userSpaceOnUse">
+      <feOffset result="offset" dx="0.696" dy="4.951" in="SourceAlpha"/>
+      <feGaussianBlur result="blur" stdDeviation="2.449"/>
+      <feFlood result="flood" flood-opacity="0"/>
+      <feComposite result="composite" operator="in" in2="blur"/>
+      <feBlend result="blend" in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <path id="Фигура_3.svg" data-name="Фигура 3.svg" class="cls-1" d="M999.669,651.291c6.411,2.6,9.591,8.286,11.031,11.9L1010,659l1,2,0.69,1.036a23.675,23.675,0,0,1,4.37-7.1,0.48,0.48,0,0,1,.8.043,0.932,0.932,0,0,1-.06.961,23.119,23.119,0,0,0-5.11,9.455v3.133a0.5,0.5,0,0,1-.99,0V666.6c-0.32-1.291-2.92-10.635-11.344-14.058a0.812,0.812,0,0,1-.349-0.856A0.448,0.448,0,0,1,999.669,651.291Z" transform="translate(-999 -651.25)"/>
+</svg>

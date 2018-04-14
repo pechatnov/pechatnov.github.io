@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="19.75" height="329.62" viewBox="0 0 19.75 329.62">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #decbf7;
+        fill-rule: evenodd;
+        filter: url(#filter);
+      }
+    </style>
+    <filter id="filter" x="507" y="1953.38" width="19.75" height="329.62" filterUnits="userSpaceOnUse">
+      <feOffset result="offset" dx="0.696" dy="4.951" in="SourceAlpha"/>
+      <feGaussianBlur result="blur" stdDeviation="2.449"/>
+      <feFlood result="flood" flood-opacity="0"/>
+      <feComposite result="composite" operator="in" in2="blur"/>
+      <feBlend result="blend" in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <path id="Стрелка.svg" class="cls-1" d="M507.736,2269.61a19.634,19.634,0,0,1,12.116,9V1953.37h1.09v324.36a18.249,18.249,0,0,1,4.808-5.36,0.664,0.664,0,0,1,.876.03,0.535,0.535,0,0,1-.065.73,16.77,16.77,0,0,0-5.619,7.15v2.37a0.6,0.6,0,0,1-1.09,0v-1.46c-0.352-.98-3.2-8.04-12.461-10.63a0.585,0.585,0,0,1-.383-0.65A0.552,0.552,0,0,1,507.736,2269.61Z" transform="translate(-507 -1953.38)"/>
+</svg>
