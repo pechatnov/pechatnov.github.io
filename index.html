@@ -19,7 +19,7 @@
     $(document).ready(function() {
         $('#ga1').on('click', function(e){
             console.log(1);
-            ga('send', 'event', 'getSystem', 'getSystemSubmit');
+            ga('send', e, 'getSystem', 'getSystemSubmit');
         });
     });
 </script>
