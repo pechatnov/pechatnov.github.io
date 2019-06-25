@@ -13,13 +13,16 @@
     </script>
 </head>
 <body>
+<button onclick="ga ('send', event, 'getSystem', 'getSystemSubmit'); return true;">111</button>
 <button id="ga1">111</button>
 <script src="js/jquery.min_1.11.0.js"></script>
 <script>
     $(document).ready(function() {
-        $('#ga1').on('click', function(e){
+        $('#ga1').on('click', function(){
             console.log(1);
-            ga('send', e, 'getSystem', 'getSystemSubmit');
+            ga('send', 'event', 'getSystem', 'getSystemSubmit');
+            ga('send', event, 'getSystem', 'getSystemSubmit');
+            ga(send, event, 'getSystem', 'getSystemSubmit');
         });
     });
 </script>
