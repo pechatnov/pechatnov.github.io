@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8">
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-142695254-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'UA-142695254-1');
+    </script>
+</head>
+<body>
+<button onclick="ga('send', 'event', 'getSystem', 'getSystemSubmit'); return true;">111</button>
+<!--<button id="ga1">111</button>-->
+<script src="js/jquery.min_1.11.0.js"></script>
+<script>
+    $(document).ready(function() {
+        $('#ga1').on('click', function(){
+            console.log(1);
+//            ga('send', 'event', 'getSystem', 'getSystemSubmit');
+//            ga('send', event, 'getSystem', 'getSystemSubmit');
+//            ga(send, event, 'getSystem', 'getSystemSubmit');
+        });
+    });
+</script>
+</body>
+</html>
